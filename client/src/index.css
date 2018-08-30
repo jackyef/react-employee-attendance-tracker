@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* {
+  transition: .2s ease;
+  font-family: "Raleway", sans-serif !important;
+}
+a {
+  color: #111;
+  font-weight: 700;
+}
+input {
+  background-color: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  /* overflow: scroll; */
+  background-color: #fcfcfc;
+}
+/* table, .form, .Detail-card, .Login-card {
+  background-color: #333 !important;
+  border-color: #222 !important;
+  box-shadow: 0 0 5px -2px black !important;
+  color: #eee;
+} */
+::-webkit-scrollbar { 
+  display: none; 
+}
+
+.bg-info {
+  background: #0077ff;
+  color: white;
+}
+
+.bg-danger {
+  background: #FF3C3C;
+  color: white;
+}
+
+.bg-warning {
+  background: #ddaa00;
+  color: white;
+}
+
+.bg-success {
+  background: #44aa33;
+  color: white;
+}

@@ -1,0 +1,18 @@
+.heading {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.content {
+  display: flex;
+}
+@media only screen and (min-width: 600px) {  
+  .container {
+    padding: 4px 8px 4px 8px;
+  }
+  .content {
+    padding: 8px 8px 8px 8px;
+  }
+  .heading {
+    font-size: 32px;
+  }
+}

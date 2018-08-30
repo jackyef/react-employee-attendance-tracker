@@ -1,0 +1,113 @@
+.main-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* overflow: scroll; */
+}
+.content {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-picker-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+table {
+  background-color: white;
+  width: 100%;
+  border-spacing: 4px;
+  border: 1px solid lightgray;
+  box-shadow: 0px 5px 5px -2px gray; 
+  padding: 8px 0 8px 0;
+  margin: 8px 0 8px 0;
+}
+td, th {
+  text-align: center;
+}
+th {
+  background-color: #444;
+  border-color: #444;
+  /* outline: 2px solid #444; */
+  color: #fafafa;
+  padding: 4px 0 4px 0;
+  /* box-shadow: 0px 5px 5px -2px gray;  */
+  /* box-shadow: 0 0 8px 0 #444; */
+  /* border: 4px solid #444; */
+}
+
+tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.table-controls{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+.table-pagination {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+.pagination-buttons {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+.results {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media only screen and (min-width: 600px) {  
+  .container {
+    padding: 4px 8px 4px 8px;
+  }
+  .content {
+    padding: 8px 8px 8px 8px;
+    align-self: stretch;
+  }
+  .heading {
+    font-size: 32px;
+  }
+}
+
+.employee-table tr > :nth-child(6){
+  min-width: 5em;
+  width: 5em;
+  max-width: 5em;
+}
+@media only screen and (max-width: 480px) {  
+  .employee-table tr > :nth-child(4),
+  .employee-table tr > :nth-child(5) {
+    display: none;
+  }
+}
+/* tr:nth-child(even) {
+  background-color: lightgray;
+}
+tr:nth-child(odd) {
+  background-color: beige;
+} */
